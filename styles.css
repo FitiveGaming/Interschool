@@ -89,7 +89,6 @@ header {
     color: #fff;
     letter-spacing: 2px;
     float: left;
-
 }
 
 .logo a {
@@ -109,7 +108,7 @@ header {
     transition: top 0.3s;
     z-index: 5;
     overflow: hidden;
-    line-height: 28px;
+    line-height: 26px;
     letter-spacing: 1px;
 }
 
@@ -306,9 +305,33 @@ header {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
-    color: rgb(199, 184, 184);
+    background-color: rgb(29, 29, 29);
+    color: rgb(110, 110, 110);
     text-align: center;
-    margin-top: 200;
+    margin-top: 300;
     height: 300;
 }
+
+/*========Styling the links===========*/
+
+a:link {
+    color: rgb(110, 110, 110);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(110, 110, 110);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
