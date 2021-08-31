@@ -11,8 +11,20 @@ body {
     margin: auto;
 }
 
-.main-heading{
-    font-size: large;
+header {
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    width: 100%;
+    background: rgb(48, 119, 90);
+    z-index: 12;
+    font-family: Agency FB;
+}
+
+.wrapper {
+    width: 1350px;
+    margin: 0 auto;
 }
 
 .banner {
@@ -70,8 +82,26 @@ body {
     animation-duration: 1.5s;
 }
 
+.logo {
+    text-decoration: none;
+    font-style: 50px;
+    font-family: Agency FB;
+    color: #fff;
+    letter-spacing: 2px;
+    float: left;
+
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Agency FB;
+    color: #fff;
+}
+
 #navbar {
     background-color: rgb(48, 119, 90);
+    font-family: Agency FB;
     position: fixed;
     top: 0;
     width: 100%;
@@ -79,7 +109,8 @@ body {
     transition: top 0.3s;
     z-index: 5;
     overflow: hidden;
-
+    line-height: 28px;
+    letter-spacing: 1px;
 }
 
 #navbar a {
@@ -89,12 +120,9 @@ body {
     text-align: center;
     padding: 15px;
     text-decoration: none;
-    font-size: 17px;
     padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
     transition: all .8s ease;
-    transform: translate3D(0, -1px, 0) scale(1.03);
+    transform: translate3D(0, -3px, 0) scale(1);
 }
 
 #navbar a:hover {
@@ -106,24 +134,6 @@ body {
         inset 0 0 0.5vw 0.2vw #5a4eff94;
     border-radius: .7rem;
     transition: all .8s ease;
-}
-
-
-.maths {
-    transform: translate3D(0, -1px, 0) scale(1.03);
-    box-shadow:
-        0 0 7px #fff,
-        0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px rgb(0, 132, 255),
-        0 0 82px rgb(0, 132, 255),
-        0 0 92px rgb(0, 132, 255),
-        0 0 95px rgb(0, 132, 255);
-
-    border-radius: 1.2rem;
-    transition: all .8s ease;
-    /* zoom in */
-    cursor: pointer;
 }
 
 @-webkit-keyframes fade {
@@ -287,7 +297,7 @@ body {
     margin-left: auto;
 }
 
-.text-para{
+.text-para {
     font-size: x-large;
 }
 
@@ -301,4 +311,4 @@ body {
     text-align: center;
     margin-top: 200;
     height: 300;
- }
+}
